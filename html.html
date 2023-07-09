@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>freeCodeCamp Survey Form</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform.</p>
+  <form id="survey-form">
+    <fieldset>
+      <label id="name-label" for="name">Name:</label>
+      <input id="name" name="name" type="text" required placeholder="Enter Your Name">
+      
+      <label id="email-label" for="email">Email:</label>
+      <input id="email" name="email" type="email" required placeholder="Enter Your Email">
+      
+      <label id="number-label" for="age">Age (Optional):</label>
+      <input min="10" max="99" id="number" name="age" type="number" placeholder="Enter Your Age">
+      
+      <label for="dropdown">Which option best describes your current role?</label>
+      <select id="dropdown" name="dropdown">
+        <option value="">(Select current role)</option>
+        <option value="1">Student</option>
+        <option value="2">Full Time Job</option>
+        <option value="3">Full Time Learner</option>
+        <option value="4">Prefer not to say</option>
+        <option value="5">Other</option>
+      </select><br>
+      
+      <label for="recommend">Would you recommend freeCodeCamp to a friend?</label>
+      <label for="definitely">
+        <input id="definitely" type="radio" name="recommend" value="definitely" checked>
+        Definitely
+      </label>
+      <label for="maybe">
+        <input id="maybe" type="radio" name="recommend" value="maybe">
+        Maybe
+      </label>
+      <label for="not-sure">
+        <input id="not-sure" type="radio" name="recommend" value="not-sure">
+        Not Sure
+      </label>
+      
+      <label for="favorite-feature">What is your favorite feature of freeCodeCamp?</label>
+      <select id="favorite-feature" name="favorite-feature">
+        <option value="">(Select an option)</option>
+        <option value="1">WEB DEVELOPMENT</option>
+        <option value="2">OPEN SOURCE</option>
+        <option value="3">SOFTWARE DEVELOPMENT</option>
+        <option value="4">TECHNOLOGY</option>
+        <option value="5">Others</option>
+      </select>
+      
+      <label for="feature">What would you like to see improved? (Check all that apply)</label>
+      
+      <label for="front-end-projects"><input id="front-end-projects" type="checkbox" name="feature" value="Front-end-Projects" >
+      Front-end Projects</label>
+      
+      <label for="back-end-projects"><input id="back-end-projects" type="checkbox" name="feature" value="Back-end-Projects">
+      Back-end Projects</label>
+      
+      <label for="Data-visualization"><input id="Data-visualization" type="checkbox" name="feature" value="Data-visualization">
+      Data Visualization</label>
+      
+      <label for="Challenges"><input id="Challenges" type="checkbox" name="feature" value="Challenges">
+      Challenges</label>
+      
+      <label for="Open-Source-Community"><input id="Open-Source-Community" type="checkbox" name="feature" value="Open-Source-Community">
+      Open Source Community</label>
+      
+      <label for="gitter-help-rooms"><input id="gitter-help-rooms" type="checkbox" name="feature" value="Gitter-help-rooms">
+      Gitter help rooms</label>
+      
+      <label for="videos"><input id="videos" type="checkbox" name="feature" value="Videos">
+      Videos</label>
+      
+      <label for="city-meetups"><input id="city-meetups" type="checkbox" name="feature" value="City-Meetups">
+      City Meetups</label>
+      
+      <label for="wiki"><input id="wiki" type="checkbox" name="feature" value="Wiki">
+      Wiki</label>
+      
+      <label for="forum"><input id="forum" type="checkbox" name="feature" value="Forum">
+      Forum</label>
+      
+      <label for="Additional-Courses"><input id="Additional-Courses" type="checkbox" name="feature" value="Additional-Courses">
+      Additional Courses</label>
+      
+      <label for="comment">Any comments for suggestions?</label>
+      <textarea id="comment" name="comment" rows="3" cols="30" placeholder="Enter you comment here..."></textarea>
+      
+      <input id="submit" type="submit" value="Submit">
+    </fieldset>
+  </form>
+</body>
+</html>

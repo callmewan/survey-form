@@ -1,0 +1,73 @@
+body {
+  background-image: url(https://img.freepik.com/free-vector/stream-binary-code-design-vector_53876-161367.jpg?w=1060&t=st=1684495516~exp=1684496116~hmac=569253543058fbb73848fdb980ac5ddd4589e6c221ec73692822b617bb3a0e6c);
+  opacity: 0.8;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+ fieldset {
+  background-color: #403759;
+  
+}
+
+h1, p {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-style: italic;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  color: white;
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+
+select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+  margin: 0px;
+  
+}
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
